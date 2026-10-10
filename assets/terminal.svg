@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="578" viewBox="0 0 860 578" role="img" aria-label="Terminal running neofetch with a dragon ASCII logo and a short profile summary">
+<style>
+  text { font-family: "JetBrains Mono", "Fira Code", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; font-size: 13px; white-space: pre; }
+  .p { fill: #ff3b4e; } .cmd { fill: #e8e8ea; } .out { fill: #b9bcc4; } .dim { fill: #6b6f78; }
+  .k { fill: #ff3b4e; font-weight: 700; } .head { fill: #ff3b4e; font-weight: 700; }
+  .sys { fill: #5aa2ff; } .art { fill: url(#fire); font-weight: 700; } .title { fill: #6b6f78; font-size: 11px; letter-spacing: .12em; }
+  .ln { opacity: 0; animation: in .01s linear forwards; }
+  .cur { fill: #ff3b4e; animation: blink 1s steps(1) infinite; }
+  @keyframes in { to { opacity: 1; } }
+  @keyframes blink { 50% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { .ln { animation: none; opacity: 1; } .cur { animation: none; } }
+</style>
+<defs>
+  <linearGradient id="fire" gradientUnits="userSpaceOnUse" x1="0" y1="93" x2="0" y2="397">
+    <stop offset="0" stop-color="#ff6b78"/><stop offset=".5" stop-color="#ff3b4e"/><stop offset="1" stop-color="#7a1220"/>
+  </linearGradient>
+  <radialGradient id="glow" cx=".25" cy=".3" r=".6"><stop offset="0" stop-color="#ff3b4e" stop-opacity=".10"/><stop offset="1" stop-color="#ff3b4e" stop-opacity="0"/></radialGradient>
+</defs>
+<rect x=".5" y=".5" width="859" height="577" rx="10" fill="#0a0b0d" stroke="#25272d"/>
+<rect x="1" y="1" width="858" height="576" rx="10" fill="url(#glow)"/>
+<path d="M1 40H859" stroke="#1d1f24"/>
+<circle cx="22" cy="20" r="5.5" fill="#ff3b4e"/><circle cx="40" cy="20" r="5.5" fill="#3a3d45"/><circle cx="58" cy="20" r="5.5" fill="#3a3d45"/>
+<text x="430" y="24" text-anchor="middle" class="title">SCM@ISTANBUL: ~</text>
+
+<text x="32" y="74" class="ln" style="animation-delay:0.30s"><tspan class="p">❯ </tspan><tspan class="cmd">neofetch</tspan></text>
+<text x="32" y="93" class="ln art" style="animation-delay:0.90s">                   /\  /\                   </text>
+<text x="422.0" y="93" class="ln head" style="animation-delay:0.90s">scm@istanbul</text>
+<text x="32" y="112" class="ln art" style="animation-delay:0.97s">  __              /  \/  \              __  </text>
+<text x="422.0" y="112" class="ln dim" style="animation-delay:0.97s">------------</text>
+<text x="32" y="131" class="ln art" style="animation-delay:1.04s"> /  `-.          /   __   \          .-&#x27;  \ </text>
+<text x="422.0" y="131" class="ln" style="animation-delay:1.04s"><tspan class="k">OS</tspan><tspan class="out">: Human 2026 x86_64 (caffeinated)</tspan></text>
+<text x="32" y="150" class="ln art" style="animation-delay:1.11s">|  ,   `-.      |  /    \  |      .-&#x27;   ,  |</text>
+<text x="422.0" y="150" class="ln" style="animation-delay:1.11s"><tspan class="k">Host</tspan><tspan class="out">: Istanbul, TR</tspan></text>
+<text x="32" y="169" class="ln art" style="animation-delay:1.18s">| / \     `-.   | | @  @ | |   .-&#x27;     / \ |</text>
+<text x="422.0" y="169" class="ln" style="animation-delay:1.18s"><tspan class="k">Role</tspan><tspan class="out">: Software Developer</tspan></text>
+<text x="32" y="188" class="ln art" style="animation-delay:1.25s">|/   \  \    `-.|  \    /  |.-&#x27;    /  /   \|</text>
+<text x="422.0" y="188" class="ln" style="animation-delay:1.25s"><tspan class="k">Focus</tspan><tspan class="out">: game tech · network · security · AI</tspan></text>
+<text x="32" y="207" class="ln art" style="animation-delay:1.32s">&#x27;     \  \  \   \    \/    /   /  /  /     `</text>
+<text x="422.0" y="207" class="ln" style="animation-delay:1.32s"><tspan class="k">Stack</tspan><tspan class="out">: TS · JS · C# · React · Three.js · FastAPI</tspan></text>
+<text x="32" y="226" class="ln art" style="animation-delay:1.39s">       \  \  \   \  ,  ,  /   /  /  /       </text>
+<text x="422.0" y="226" class="ln" style="animation-delay:1.39s"><tspan class="k">Shell</tspan><tspan class="out">: zsh + way too many tabs</tspan></text>
+<text x="32" y="245" class="ln art" style="animation-delay:1.46s">        \/\/\/\   \      /   /\/\/\/        </text>
+<text x="422.0" y="245" class="ln" style="animation-delay:1.46s"><tspan class="k">Uptime</tspan><tspan class="out">: always shipping</tspan></text>
+<text x="32" y="264" class="ln art" style="animation-delay:1.53s">                 _/\    /\_                 </text>
+<text x="422.0" y="264" class="ln" style="animation-delay:1.53s"><tspan class="k">Mail</tspan><tspan class="out">: scmertdogan@gmail.com</tspan></text>
+<text x="32" y="283" class="ln art" style="animation-delay:1.60s">                /  |    |  \                </text>
+<text x="422.0" y="283" class="ln" style="animation-delay:1.60s"><tspan class="k">Web</tspan><tspan class="out">: canmertdogan.github.io</tspan></text>
+<text x="32" y="302" class="ln art" style="animation-delay:1.67s">               /  /      \  \               </text>
+<text x="32" y="321" class="ln art" style="animation-delay:1.74s">              (  (        )  )              </text>
+<g class="ln" style="animation-delay:1.74s"><rect x="422.0" y="309" width="22" height="15" fill="#0a0b0d"/><rect x="444.0" y="309" width="22" height="15" fill="#ff3b4e"/><rect x="466.0" y="309" width="22" height="15" fill="#ff6b78"/><rect x="488.0" y="309" width="22" height="15" fill="#5aa2ff"/><rect x="510.0" y="309" width="22" height="15" fill="#3b8eff"/><rect x="532.0" y="309" width="22" height="15" fill="#b9bcc4"/><rect x="554.0" y="309" width="22" height="15" fill="#6b6f78"/><rect x="576.0" y="309" width="22" height="15" fill="#e8e8ea"/></g>
+<text x="32" y="340" class="ln art" style="animation-delay:1.81s">               \  `-.__.-&#x27;  /               </text>
+<text x="32" y="359" class="ln art" style="animation-delay:1.88s">                `-.__  __.-&#x27;                </text>
+<text x="32" y="378" class="ln art" style="animation-delay:1.95s">                     \/                     </text>
+<text x="32" y="416" class="ln" style="animation-delay:2.02s"><tspan class="p">❯ </tspan><tspan class="cmd">cat about.txt</tspan></text>
+<text x="32" y="435" class="ln out" style="animation-delay:2.62s">I build complete products — the system underneath, the tools around it,</text>
+<text x="32" y="454" class="ln out" style="animation-delay:2.82s">and the surface people actually use. Local-first, real-time, useful AI.</text>
+<text x="32" y="492" class="ln" style="animation-delay:3.02s"><tspan class="p">❯ </tspan><tspan class="cmd">ls ~/systems</tspan></text>
+<text x="32" y="511" class="ln sys" style="animation-delay:3.62s">redglitch  lxxxo  netpurifier  soc-handbook  weapon  sxx.digital  project-vertex</text>
+<g class="ln" style="animation-delay:3.92s"><text x="32" y="549" class="p">❯ </text><rect class="cur" x="52" y="538" width="8" height="14"/></g>
+</svg>

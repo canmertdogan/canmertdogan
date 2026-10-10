@@ -1,16 +1,16 @@
-## Hi there 👋
+<p align="center">
+  <a href="https://canmertdogan.github.io">
+    <img src="assets/terminal.svg" alt="neofetch-style terminal with a dragon ASCII logo: software developer in Istanbul building game tech, network tooling, security training and applied AI" width="860" />
+  </a>
+</p>
 
-<!--
-**canmertdogan/canmertdogan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  Software developer in Istanbul. I build complete products: the system underneath, the tools around it,<br />
+  and the surface people actually use.
+</p>
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  <a href="https://canmertdogan.github.io"><b>portfolio</b></a> ·
+  <a href="mailto:scmertdogan@gmail.com"><b>scmertdogan@gmail.com</b></a> ·
+  <a href="https://www.linkedin.com/in/%C5%9Feref-can-mertdo%C4%9Fan-9b5597321/"><b>linkedin</b></a>
+</p>
