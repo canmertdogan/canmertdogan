@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  Software developer in Istanbul. I build complete products: the system underneath, the tools around it,<br />
+  Software developer in Ankara. I build complete products: the system underneath, the tools around it,<br />
   and the surface people actually use.
 </p>
 
